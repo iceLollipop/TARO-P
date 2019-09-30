@@ -21,16 +21,16 @@ class App extends Component {
       // navigationBarTitleText: 'WeChat',
       navigationBarTextStyle: 'white'
     },
-    tabBar: {
-      list: [{
-        pagePath: "pages/index/index",
-        text: "首页",
-      }, 
-      {
-        pagePath: "pages/me/index",
-        text: "我的"
-      }]
-    },
+    // tabBar: {
+    //   list: [{
+    //     pagePath: "pages/index/index",
+    //     text: "首页",
+    //   }, 
+    //   {
+    //     pagePath: "pages/me/index",
+    //     text: "我的"
+    //   }]
+    // },
     requiredBackgroundModes: ["audio"]
   }
 

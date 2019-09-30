@@ -1,4 +1,12 @@
+@import "~taro-ui/dist/style/components/tab-bar.scss";
+@import "~taro-ui/dist/style/components/badge.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
 .index {
   flex-direction: column;
   width: 100%;
 }
+.at-tab-bar__icon {
+  font-size: 48rpx;
+  line-height: 1; 
+}
+
